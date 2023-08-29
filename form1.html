@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form 1</title>
+</head>
+
+<body>
+    <h2>Job Application</h2>
+    <form action="">
+
+        <label for="name">Name:</label><br>
+        <input type="text" name="inputName" id="name">
+        <br>
+        <br>
+
+        <label for="email">Email:</label><br>
+        <input type="email" name="emailInput" id="email">
+        <br><br>
+
+        <label for="phone">Phone no.:</label><br>
+        <input type="tel" name="phoneNum" id="phone">
+        <br><br>
+
+        <label for="resume">Resume:</label>
+        <input type="file" name="choose file" id="resume">
+        <br><br>
+
+        <label for="year">Experience Year:</label>
+        <input type="number" name="Select year" id="year" min="0" max="50">
+        <br><br>
+
+        <fieldset style="display: inline">
+            <legend name="skills">
+                <label for="option1">skills:</label><br>
+            </legend>
+
+            <input type="checkbox" name="option1" id="option1">
+            <label for="option1">HTML</label>
+            <br><br>
+            <input type="checkbox" name="option2" id="option2">
+            <label for="option2">JAVA</label>
+            <br><br>
+            <input type="checkbox" name="option3" id="option3">
+            <label for="option3">C++</label>
+            <br>
+
+        </fieldset>
+        <br>
+        <label for="Education">Highest Education:</label>
+        <select name="Education" id="Education">
+            <option value="Education">High School</option>
+            <option value="Education">Secondary</option>
+            <option value="Education">UG</option>
+            <option value="Education">PG</option>
+        </select>
+        <br>
+
+        <h4>Availablity:</h4>
+        <input type="radio" name="Availablity" id="Availablity1">
+        <label for="Availablity1">Full Time</label>
+        <br><br>
+        <input type="radio" name="Availablity" id="Availablity2">
+        <label for="Availablity2">Part Time</label>
+        <br><br>
+
+        <label for="2">Comment:</label><br>
+        <textarea name="textinput" id="2" cols="30" rows="10"></textarea>
+       <input type="button" name="submit" value="Submit">
+
+
+
+
+
+    </form>
+
+
+</body>
+
+</html>
